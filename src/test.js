@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import DateCountdown from "./";
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+describe("DateCountdown", () => {
+  it("is truthy", () => {
+    expect(DateCountdown).toBeTruthy();
+  });
+});

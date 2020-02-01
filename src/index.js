@@ -1,22 +1,34 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import { useState, useEffect, useRef } from "react";
+import { calculateTimeLeft } from "./utils";
 
-import styles from './styles.css'
+const Countdown = ({ date, children }) => {
+  const initialTimeLeft = calculateTimeLeft(date);
+  const [timeLeft, setTimeLeft] = useState(initialTimeLeft);
+  const timer = useRef();
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
+  useEffect(() => {
+    timer.current = setInterval(() => {
+      setTimeLeft(calculateTimeLeft(date));
+    }, 1000);
 
-  render() {
-    const {
-      text
-    } = this.props
+    return () => {
+      if (timer.current !== undefined) {
+        clearInterval(timer.current);
+      }
+    };
+  }, [date]);
 
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+  let isValidDate = true,
+    isValidFutureDate = true;
+
+  if (timeLeft === null) isValidDate = false;
+  if (timeLeft && timeLeft.seconds === undefined) isValidFutureDate = false;
+
+  return children({
+    isValidDate,
+    isValidFutureDate,
+    timeLeft
+  });
+};
+
+export default Countdown;
