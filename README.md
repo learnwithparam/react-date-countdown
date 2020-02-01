@@ -32,7 +32,9 @@ class Example extends Component {
 }
 ```
 
-Check the example folder for real example. Example in action [here](https://learnwithparam.github.io/react-date-countdown/)
+Example in action [here](https://learnwithparam.github.io/react-date-countdown/)
+
+You can checkout the examples folder for how to use it.
 
 ## License
 
