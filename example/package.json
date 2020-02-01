@@ -7,7 +7,7 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
-    "react-date-countdown": "link:..",
+    "react-headless-countdown": "link:..",
     "react-dom": "^16.12.0",
     "react-scripts": "^3.3.1"
   },

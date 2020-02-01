@@ -1,13 +1,13 @@
-# react-date-countdown
+# react-headless-countdown
 
->
+> React date countdown using render props. Support for hooks is on its way :)
 
-[![NPM](https://img.shields.io/npm/v/react-date-countdown.svg)](https://www.npmjs.com/package/react-date-countdown) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-headless-countdown.svg)](https://www.npmjs.com/package/react-headless-countdown) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-date-countdown
+npm install --save react-headless-countdown
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-date-countdown
 ```jsx
 import React, { Component } from "react";
 
-import DateCountdown from "react-date-countdown";
+import DateCountdown from "react-headless-countdown";
 
 class Example extends Component {
   render() {

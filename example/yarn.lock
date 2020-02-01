@@ -8132,10 +8132,6 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-"react-date-countdown@link:..":
-  version "0.0.0"
-  uid ""
-
 react-dev-utils@^10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.1.0.tgz#ccf82135f6dc2fc91969bc729ce57a69d8e86025"
@@ -8180,6 +8176,10 @@ react-error-overlay@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.5.tgz#55d59c2a3810e8b41922e0b4e5f85dcf239bd533"
   integrity sha512-+DMR2k5c6BqMDSMF8hLH0vYKtKTeikiFW+fj0LClN+XZg4N9b8QUAdHC62CGWNLTi/gnuuemNcNcTFrCvK1f+A==
+
+"react-headless-countdown@link:..":
+  version "0.0.0"
+  uid ""
 
 react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"

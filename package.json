@@ -1,7 +1,7 @@
 {
-  "name": "react-date-countdown",
+  "name": "react-headless-countdown",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple react date countdown without UI",
   "author": "Param-Harrison",
   "license": "MIT",
   "repository": "learnwithparam/react-date-countdown",
