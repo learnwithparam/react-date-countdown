@@ -1,5 +1,5 @@
 import React from "react";
-import DateCountdown from "react-date-countdown";
+import DateCountdown from "react-headless-countdown";
 
 const CountdownRenderProps = ({ date }) => {
   return (
